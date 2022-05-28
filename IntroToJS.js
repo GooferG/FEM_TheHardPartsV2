@@ -6,10 +6,6 @@
 // var myStr = "hello"
 //   console.log(typeof myStr === "string") //=> true
 
-/* ========== *
- * Challenge 1 *
- * =========== */
-
 //Uncomment the lines below to test your code
 // console.log(typeof 7.0 === "_______")
 // console.log(typeof 22 === "_______")
@@ -26,10 +22,6 @@ var myVar;
 // Challenge 2
 // Create a functon buildSentence that takes three words (strings) and adds them together and console.logs the whole sentence (string) complete with capitalization and punctuation.
 
-/* ========== *
- * Challenge 2 *
- * =========== */
-
 function buildSentence(word1, word2, word3) {
   //your code goes here...
 }
@@ -40,10 +32,6 @@ function buildSentence(word1, word2, word3) {
 // Challenge 3
 // Create a function lastLetter that takes a word (string) and console.logs the last character/letter of that word.
 // Hint: Remember that each character/letter in a string has an index position that you can access with brackets: []
-
-/* ========== *
- * Challenge 3 *
- * =========== */
 
 function lastLetter(word) {
   //your code goes here...
@@ -61,10 +49,6 @@ function lastLetter(word) {
 // If time is between 17 (inclusive) and 23 (inclusive): "Good Evening, <name>!
 // If time is anything else: "That's not a real time, <name>. Maybe you need some sleep!
 
-/* ========== *
- * Challenge 4 *
- * =========== */
-
 function buildGreeting(time, name) {
   //your code goes here...
 }
@@ -80,10 +64,6 @@ function buildGreeting(time, name) {
 // If it finds string2 it returns the index position of the FIRST character that matches string2. If it cannot find string2 it returns negative one: -1.
 // Enter the index position you think indexOf will return for each below.
 
-/* ========== *
- * Challenge 5 *
- * =========== */
-
 // console.log( indexOf("CodeSmith", "o") === __ )
 // console.log( indexOf("hello", "ll") === __ )
 // console.log( indexOf("zebra", "z") === __ )
@@ -91,10 +71,6 @@ function buildGreeting(time, name) {
 
 // Challenge 6
 // Create a function letterExists that takes a word (string) and a character (string), and console.logs whether that letter can be found inside that word.
-
-/* ========== *
- * Challenge 6 *
- * =========== */
 
 function letterExists(word, letter) {
   //your code goes here...
@@ -108,10 +84,6 @@ function letterExists(word, letter) {
 // Challenge 7
 // Create a function isPrime that console.logs a boolean indicating if `number` is prime or not.
 
-/* =========== *
- * Challenge 7 *
- * ============ */
-
 function isPrime(number) {
   // your code here...
 }
@@ -123,10 +95,6 @@ function isPrime(number) {
 
 // Challenge 8
 // Create a function range that console.logs all numbers between 'start' and 'end' in sequential order.
-
-/* ========== *
- * Challenge 8 *
- * =========== */
 
 function range(start, end) {
   //your code goes here...
@@ -141,10 +109,6 @@ function range(start, end) {
 // Assume the `ele` will be a primitive data type (no arrays or objects).
 // DO NOT USE THE BUILT-IN `indexOf` METHOD IN YOUR SOLUTION!
 
-/* =========== *
- * Challenge 9 *
- * ============ */
-
 function myIndexOf(array, ele) {
   // your code here...
 }
@@ -156,10 +120,6 @@ function myIndexOf(array, ele) {
 // Challenge 10
 // Create a function unique that console.logs an array where all the duplicates of the input array have been removed; in other words, every element remaining is unique.
 
-/* =========== *
- * Challenge 10 *
- * ============ */
-
 function unique(array) {
   //your code goes here...
 }
@@ -170,10 +130,6 @@ function unique(array) {
 // Challenge 11
 // Create a function longestWord that that retuns the longest word of a sentence.
 // If there are ties, the function should return the later word.
-
-/* =========== *
- * Challenge 11 *
- * ============ */
 
 function longestWord(sentence) {
   // your code here...
@@ -189,10 +145,6 @@ function longestWord(sentence) {
 // Challenge 12
 // Create a function disemvowel that takes in a string and returns a string with all vowels removed.
 
-/* =========== *
- * Challenge 12 *
- * ============ */
-
 function disemvowel(string) {
   // your code here...
 }
@@ -206,10 +158,6 @@ function disemvowel(string) {
 // Challenge 13
 // Create a function divisibleByFivePairSum that takes an array of numbers.
 // It should return an array of all the pairs of indices whose sum is a multiple of five.
-
-/* =========== *
- * Challenge 13 *
- * ============ */
 
 function divisibleByFivePairSum(array) {
   // your code here...
@@ -229,10 +177,6 @@ function divisibleByFivePairSum(array) {
 
 // Assume the array contains at least 1 student object and the student with the highest score is unique (there are no ties).
 
-/* =========== *
- * Challenge 14 *
- * ============ */
-
 function highestScore(students) {
   // your code here...
 }
@@ -251,10 +195,6 @@ function highestScore(students) {
 // Challenge 15
 // Create a function leastCommonMultiple that takes two numbers (integers) as input and returns the lowest number which is a multiple of both inputs.
 
-/* =========== *
- * Challenge 15 *
- * ============ */
-
 function leastCommonMultiple(num1, num2) {
   // your code here...
 }
@@ -268,10 +208,6 @@ function leastCommonMultiple(num1, num2) {
 // Extension 1
 // Create a function arrayBuilder that takes in a count object and returns an array filled with the appropriate numbers of elements. The order of the elements in the array does not matter, but repeated elements should be grouped.
 
-/* ========== *
- * Extension 1 *
- * =========== */
-
 function arrayBuilder(count) {
   // your code here...
 }
@@ -283,10 +219,6 @@ function arrayBuilder(count) {
 
 // Extension 2
 // Create a function objectBuilder that takes in a number and returns an object whose keys are 0 up to number and the values are that same number multipled by 5.
-
-/* ========== *
- * Extension 2 *
- * =========== */
 
 function objectBuilder(count) {
   // your code here...
@@ -306,10 +238,6 @@ function objectBuilder(count) {
 // Extension 3
 // Create a function secretCipher that takes in an string(sentence) and an object(cipher). Return a string where every character is replaced with its cooresponding value in the cipher. If the character doesn't exist in the cipher, use the original character.
 
-/* ========== *
- * Extension 3 *
- * =========== */
-
 function secretCipher(sentence, cipher) {
   // your code here...
 }
@@ -323,10 +251,6 @@ function secretCipher(sentence, cipher) {
 // Extension 4
 // Create a function passingStudents that accepts an array of student objects.
 // It should iterate through the list of students and return an array of the names of all the students who have an average grade of at least 70.
-
-/* ========== *
- * Extension 4 *
- * =========== */
 
 function passingStudents(students) {
   // your code here...
